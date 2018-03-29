@@ -15,13 +15,13 @@ IBM Cloud Functions:
     - Multi Cloud Support : True
     - Hybrid Cloud Support : True
   Application Deployment:
-    - Function Code Input Options : {UI, Github, IBM Cloud Object Storage, Docker}
+    - Function Code Input Options : {UI, Github, CLI, Rest API, Docker}
     - Container Support : True
     - Binary Payload : True
     - Browser Based Code Editor : True
     - Visual Workflow Editor : True
-    - Event Sources : {Cloudant, Cloud Object Storage, Push Notifications, Message Hub, IBM Watson, The Weather Company. Slack, GitHub}
-    - Dependencies : npm
+    - Event Sources : {Cloudant, Mobile Push Notifications, Message Hub (Apache Kafka), GitHub, WebHook}
+    - Dependencies : npm, Zip
     - HTTP(S) Invocation : HTTPS through Bluemix API Gateway
     - Environment Variables : False
     - Built-In Versioning : False
@@ -43,8 +43,8 @@ IBM Cloud Functions:
     - Built in Monitoring : IBM Cloud Log Analysis
     - Third Party Integrations Out Of The Box : True
   Security:
-    - Cloud Provider IAM Support : True
-    - Virtual Private Network Support : False
+    - Cloud Provider IAM Support : False
+    - Virtual Private Network Support : True
     - Compliance : ISO
   Documentation:
     - Wiki (or equivalent): True
