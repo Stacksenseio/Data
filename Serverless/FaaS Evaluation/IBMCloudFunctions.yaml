@@ -1,0 +1,59 @@
+---
+# Evaluation of IBM Cloud Functions
+# Based on Cloud Provider Documentation and publicly available information
+# Created by Rishidot Research (www.rishidot.com) and released under Attribution-ShareAlike 4.0 International
+IBM Cloud Functions:
+  has_list: True
+  Service Consumption:
+    - General Availability : True
+    - Self Service : True
+    - Pay Per Use Pricing : True
+    - Memory Sizing : True
+    - Language Support : Node.js, Swift, Java, Go, PHP, Python
+    - Language Extensibility : True
+    - Open Source : True
+    - Multi Cloud Support : True
+    - Hybrid Cloud Support : True
+  Application Deployment:
+    - Function Code Input Options : {UI, Github, IBM Cloud Object Storage, Docker}
+    - Container Support : True
+    - Binary Payload : True
+    - Browser Based Code Editor : True
+    - Visual Workflow Editor : True
+    - Event Sources : {Cloudant, Cloud Object Storage, Push Notifications, Message Hub, IBM Watson, The Weather Company. Slack, GitHub}
+    - Dependencies : npm
+    - HTTP(S) Invocation : HTTPS through Bluemix API Gateway
+    - Environment Variables : False
+    - Built-In Versioning : False
+    - Maximum Number of Functions Per Project/Namespace : No Published Limits
+    - Concurrent Executions : 1000
+    - Maximum Execution Time (in seconds) : 600
+    - Quota Increase : Support Ticket
+    - Free API Gateway : True
+    - High Availabilty : False
+    - Persistent Data : True
+    - Streaming Support : True
+    - Warm Start Support : False
+    - Number Of Metrics : 5
+    - List of Metrics : {CPU, Memory, Time, Error, Cold Start}
+    - Support For Custom Metrics : True
+  Integrations:
+    - Supported Cloud Services : {Slack, IBM Watson, IBM Cloudant, Weather, IBM Mobile Push, IBM Cloud Storage}
+    - Built in Logging : IBM Cloud Monitoring
+    - Built in Monitoring : IBM Cloud Log Analysis
+    - Third Party Integrations Out Of The Box : True
+  Security:
+    - Cloud Provider IAM Support : True
+    - Virtual Private Network Support : False
+    - Compliance : ISO
+  Documentation:
+    - Wiki (or equivalent): True
+    - Howtos : True
+    - Examples/Use Cases : True
+    - Videos : True
+    - User Community : OpenWhisk Community
+    - API Documentation : True
+  On-Premises Deployment:
+    - On-Premises Deployment : True
+    - Public Cloud Integration : True
+...

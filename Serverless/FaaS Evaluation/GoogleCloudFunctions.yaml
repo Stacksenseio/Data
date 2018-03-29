@@ -1,0 +1,59 @@
+---
+# Evaluation of Google Cloud Functions
+# Based on Cloud Provider Documentation and publicly available information
+# Created by Rishidot Research (www.rishidot.com) and released under Attribution-ShareAlike 4.0 International
+Google Cloud Functions:
+  has_list: True
+  Service Consumption:
+    - General Availability : Beta
+    - Self Service : True
+    - Pay Per Use Pricing : True
+    - Memory Sizing : True
+    - Language Support : Node.js
+    - Language Extensibility : False
+    - Open Source : False
+    - Multi Cloud Support : False
+    - Hybrid Cloud Support : False
+  Application Deployment:
+    - Function Code Input Options : {UI, Zip, Google Cloud Storage, Google Source Repository}
+    - Container Support : False
+    - Binary Payload : False
+    - Browser Based Code Editor : True
+    - Visual Workflow Editor : False
+    - Event Sources : {HTTP, Cloud Storage, Cloud Pub/Sub, Firebase}
+    - Dependencies : npm
+    - HTTP(S) Invocation : HTTP Trigger
+    - Environment Variables : False
+    - Built-In Versioning : False
+    - Maximum Number of Functions Per Project/Namespace : 1000
+    - Concurrent Executions : 1000
+    - Maximum Execution Time (in seconds): 540
+    - Quota Increase : Console
+    - Free API Gateway : False
+    - High Availabilty : False
+    - Persistent Data : True
+    - Streaming Support : True
+    - Warm Start Support : False
+    - Number Of Metrics : 4
+    - List of Metrics : {Execution Count, Execution Times, Network Egress, Memory Usage}
+    - Support For Custom Metrics : False
+  Integrations:
+    - Supported Cloud Services : {Cloud BigQuery, Cloud Bigtable, Cloud Data Loss Prevention. Cloud Datastore, Cloud DNS, Cloud Firestore, Cloud Machine Learning Engine, Cloud Natural Language API, Cloud Pub/Sub, Cloud Resource Manager, Cloud Spanner, Cloud Speech API, Cloud Storage, Cloud Translation API, Cloud Vision API, Cloud Video Intelligence, Firebase, Google Stackdriver, Google Compute Engine"}
+    - Built in Logging : Google Stackdriver
+    - Built in Monitoring : Google Stackdriver
+    - Third Party Integrations Out Of The Box : True
+  Security:
+    - Cloud Provider IAM Support : True
+    - Virtual Private Network Support : False
+    - Compliance : SOC, HIPAA, PCI, ISO
+  Documentation:
+    - Wiki (or equivalent) : True
+    - Howtos : True
+    - Examples/Use Cases : True
+    - Videos : True
+    - User Community : Google Groups
+    - API Documentation : True
+  On-Premises Deployment:
+    - On-Premises Deployment : False
+    - Public Cloud Integration : Not Applicable
+...

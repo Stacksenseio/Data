@@ -1,0 +1,59 @@
+---
+# Evaluation of AWS Lambda
+# Based on Cloud Provider Documentation and publicly available information
+# Created by Rishidot Research (www.rishidot.com) and released under Attribution-ShareAlike 4.0 International
+AWS Lambda:
+  has_list: true
+  Service Consumption:
+    - General Availability : True
+    - Self Service : True
+    - Pay Per Use Pricing : True
+    - Memory Sizing : True
+    - Language Support : Node.js, Python, Java, C#, Go
+    - Language Extensibility : False
+    - Open Source : False
+    - Multi Cloud Support : False
+    - Hybrid Cloud Support : False
+  Application Deployment:
+    - Function Code Input Options : UI, Zip, Zip from S3
+    - Container Support: False
+    - Binary Payload : True
+    - Browser Based Code Editor : True
+    - Visual Workflow Editor : True
+    - Event Sources : {Amazon S3, Amazon DynamoDB, Amazon Kinesis Data Streams, Amazon SNS, Amazon Simple Email Service, Amazon Cognito, AWS CloudFormation, Amazon CloudWatch Logs, Amazon CloudWatch Events, AWS CodeCommit, AWS Config, Amazon Alexa, Amazon Lex, Amazon API Gateway, AWS IoT Button, Amazon CloudFront, Amazon Kinesis Data Firehose}
+    - Dependencies : Deployment Packages
+    - HTTP(S) Invocation : {HTTPS through API Gateway, SDKs}
+    - Environment Variables : True
+    - Built-In Versioning : True
+    - Maximum Number of Functions Per Project/Namespace : No Published Limits
+    - Concurrent Executions : 1000
+    - Maximum Execution Time (in seconds) : 300
+    - Quota Increase : Support Ticket
+    - Free API Gateway : False
+    - High Availabilty : True
+    - Persistent Data : True
+    - Streaming Support : True
+    - Warm Start Support : False
+    - Number Of Metrics : 8
+    - List of Metrics : {Invocations, Errors, Dead Letter Error, Duration, Throttles, IteratorAge, ConcurrentExecutions, UnreservedConcurrentExecutions}
+    - Support For Custom Metrics: False
+  Integrations:
+    - Supported Cloud Services : {Amazon S3, Amazon DynamoDB, Amazon Kinesis, AWS IAM, Amazon API Gateway, Amazon CloudWatch, Amazon CloudFront, Lambda@Edge, AWS Step Functions, AWS CodeStar, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, AWS XRay, AWS Cloud9}
+    - Built in Logging : Amazon CloudWatch
+    - Built in Monitoring : Amazon CloudWatch
+    - Third Party Integrations Out Of The Box : True
+  Security:
+    - Cloud Provider IAM Support : True
+    - Virtual Private Network Support: True
+    - Compliance : SOC, HIPAA, PCI, ISO
+  Documentation:
+    - Wiki (or equivalent) : True
+    - Howtos: True
+    - Examples/Use Cases : True
+    - Videos: True
+    - User Community : AWS Forums
+    - API Documentation : True
+  On-Premises Deployment:
+    - On-Premises Deployment : False
+    - Public Cloud Integration : Not Applicable
+...

@@ -1,0 +1,59 @@
+---
+# Evaluation of Microsoft Azure Functions
+# Based on Cloud Provider Documentation and publicly available information
+# Created by Rishidot Research (www.rishidot.com) and released under Attribution-ShareAlike 4.0 International
+Microsoft Azure Functions:
+  has_list: True
+  Service Consumption:
+    - General Availability : True
+    - Self Service : True
+    - Pay Per Use Pricing : True
+    - Memory Sizing : True
+    - Language Support : C#, Javascript, F#
+    - Language Extensibility : False # Coming in the future
+    - Open Source : True
+    - Multi Cloud Support : False
+    - Hybrid Cloud Support : True
+  Application Deployment:
+    - Function Code Input Options : {Bitbucket, Github, Dropbox, VSTS, Onedrive, Git local repo, External repo like Git or Mercurial}
+    - Container Support : False
+    - Binary Payload : True
+    - Browser Based Code Editor : True
+    - Visual Workflow Editor : True
+    - Event Sources : {Blob Storage, CosmosDB, Event Grid, Event Hubs, HTTP, Microsoft Graph Events, Queue Storage, Service Bus, Timer, Webhooks}
+    - Dependencies : {npm, NuGet}
+    - HTTP(S) Invocation : HTTP Trigger
+    - Environment Variables : True
+    - Built-In Versioning : False
+    - Maximum Number of Functions Per Project/Namespace : No Published Limits
+    - Concurrent Executions : No Published Limits #User Controlled on App Services Plan
+    - Maximum Execution Time (in seconds) : 300
+    - Quota Increase : Not available in Consumption Plan
+    - Free API Gateway : False
+    - High Availabilty : False
+    - Persistent Data : True
+    - Streaming Support : True
+    - Warm Start Support : False
+    - Number Of Metrics : Not Available
+    - List of Metrics : {Requests, Exceptions, Traces, PerformanceMetrics, CustomEvents, CustomMetrics}
+    - Support For Custom Metrics : True
+  Integrations:
+    - Supported Cloud Services : {Azure Blob storage, Azure Cosmos DB, Azure Event Hub, Azure Mobile Apps, Azure Notification Hubs, Azure Queue storage, Azure Service Bus, Azure Table storage, Microsoft Visual Studio}
+    - Built in Logging : Azure Application Insights
+    - Built in Monitoring : Azure Application Insights
+    - Third Party Integrations Out Of The Box : True
+  Security:
+    - Cloud Provider IAM Support : True
+    - Virtual Private Network Support : False
+    - Compliance : SOC, HIPAA, PCI, ISO
+  Documentation:
+    - Wiki (or equivalent) : True
+    - Howtos : True
+    - Examples/Use Cases : True
+    - Videos : True
+    - User Community : MSDN Forums
+    - API Documentation : True
+  On-Premises Deployment:
+    - On-Premises Deployment : True
+    - Public Cloud Integration : True
+...
