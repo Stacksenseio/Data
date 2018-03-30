@@ -30,7 +30,7 @@ IBM Cloud Functions:
     - Maximum Execution Time (in seconds) : 600
     - Quota Increase : Support Ticket
     - Free API Gateway : True
-    - High Availabilty : False
+    - High Availabilty : True
     - Persistent Data : True
     - Streaming Support : True
     - Warm Start Support : False
