@@ -46,6 +46,7 @@ IBM Cloud Functions:
     - Cloud Provider IAM Support : False
     - Virtual Private Network Support : True
     - Compliance : ISO
+    - GDPR Compliance: Yes
   Documentation:
     - Wiki (or equivalent): True
     - Howtos : True

@@ -46,6 +46,7 @@ AWS Lambda:
     - Cloud Provider IAM Support : True
     - Virtual Private Network Support: True
     - Compliance : SOC, HIPAA, PCI, ISO
+    - GDPR Compliance: Yes
   Documentation:
     - Wiki (or equivalent) : True
     - Howtos: True

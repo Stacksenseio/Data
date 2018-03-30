@@ -46,6 +46,7 @@ Microsoft Azure Functions:
     - Cloud Provider IAM Support : True
     - Virtual Private Network Support : False
     - Compliance : SOC, HIPAA, PCI, ISO
+    - GDPR Compliance: Yes
   Documentation:
     - Wiki (or equivalent) : True
     - Howtos : True
