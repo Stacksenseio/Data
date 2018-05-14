@@ -9,7 +9,7 @@ Microsoft Azure Functions:
     - Self Service : True
     - Pay Per Use Pricing : True
     - Memory Sizing : True
-    - Language Support : C#, Javascript, F#
+    - Language Support : {C#, Javascript, F#}
     - Language Extensibility : False # Coming in the future
     - Open Source : True
     - Multi Cloud Support : False
