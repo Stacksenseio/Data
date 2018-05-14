@@ -1,0 +1,71 @@
+---
+# Evaluation Criteria for Functions as a Service
+# Only public cloud services to be evaluated
+# Created by Rishidot Research (www.rishidot.com) and released under Attribution-ShareAlike 4.0 International
+# Note to vendors: Please use True or False for Yes/No answers. For responses with multiple options, use {} with individuals option separated by commas
+# Please Use the filename as VendorNameFaaS.yaml (for public cloud service) or VendorNameServerless.yaml (for software)
+FaaS Evaluation Criteria:
+  has_list: true
+  Service Consumption:
+    - General Availability:
+    - Self Service:
+    - Pay Per Use Pricing:
+    - Memory Sizing:
+    - Language Support:
+    - Language Extensibility:
+    - Open Source:
+    - Multi Cloud Support:
+    - Hybrid Cloud Support:
+  Application Deployment:
+    - Function Code Input Options:
+    - Container Support:
+    - Binary Payload:
+    - Browser Based Code Editor:
+    - Visual Workflow Editor:
+    - Event Sources:
+    - Dependencies:
+    - HTTP(S) Invocation:
+    - Platform APIs/Libraries:
+    - Environment Variables:
+    - Built-In Versioning:
+    - Maximum Number of Functions Per Project/Namespace:
+    - Concurrent Executions:
+    - Maximum Execution Time:
+    - Support For Long Running Jobs:
+    - Quota Increase:
+    - High Availabilty:
+    - Persistent Data:
+    - Streaming Support:
+    - Warm Start Support:
+    - Number Of Metrics:
+    - List of Metrics:
+    - Support For Custom Metrics:
+  API Gateway:
+    - Free API Gateway:
+    - Rate Limiting:
+    - User Aunthentication/OAuth:
+    - Cross Origin Resource Sharing Support:
+    - Path Routing Support:
+    - Traffic Shaping Support:
+    - Wildcard Support In Naming Parameters:
+  Integrations:
+    - Supported Cloud Services:
+    - Built in Logging:
+    - Built in Monitoring:
+    - Third Party Integrations Out Of The Box:
+  Security:
+    - Cloud Provider IAM Support:
+    - Virtual Private Network Support:
+    - Compliance:
+    - GDPR Compliance:
+  Documentation:
+    - Wiki (or equivalent):
+    - Howtos:
+    - Examples/Use Cases:
+    - Videos:
+    - User Community:
+    - API Documentation:
+  On-Premises Deployment:
+    - On-Premises Deployment:
+    - Public Cloud Integration:
+...
