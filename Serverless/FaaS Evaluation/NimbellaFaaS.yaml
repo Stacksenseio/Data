@@ -1,0 +1,67 @@
+---
+# Evaluation Criteria for Functions as a Service
+FaaS Evaluation Criteria:
+  has_list: true
+  Service Consumption:
+    - General Availability: True
+    - Self Service: True
+    - Pay Per Use Pricing: False
+    - Memory Sizing: { 128, 256, 512, 768 }
+    - Language Support: { "Node.js", "PHP", "Python", "Golang", "Java", "Swift", "Typescript", "Docker Container" }
+    - Language Extensibility: True
+    - Open Source: True
+    - Multi Cloud Support: True
+    - Hybrid Cloud Support: True
+  Application Deployment:
+    - Function Code Input Options: { "API Gateway", "HTTP", "Kafka" }
+    - Container Support: True
+    - Binary Payload: True
+    - Browser Based Code Editor: True
+    - Visual Workflow Editor: False
+    - Event Sources: { "API Gateway", "Kafka", "Alarm", "Cron" }
+    - Dependencies: True
+    - HTTP(S) Invocation: True
+    - Platform APIs/Libraries: { "Node.js", "PHP", "Python" }
+    - Environment Variables: True
+    - Built-In Versioning: False
+    - Maximum Number of Functions Per Project/Namespace: False
+    - Concurrent Executions: True
+    - Maximum Execution Time: { "10 seconds", "2 minutes", "Customizable" }
+    - Support For Long Running Jobs: True
+    - Quota Increase: True
+    - High Availabilty: True
+    - Persistent Data: True
+    - Streaming Support: False
+    - Warm Start Support: True
+    - Number Of Metrics: 6
+    - List of Metrics: { "Warm Start", "Cold Start", "Error Code", "Duration", "Queue Delay", "Response Code" }
+    - Support For Custom Metrics: True
+  API Gateway:
+    - Free API Gateway: True
+    - Rate Limiting: True
+    - User Aunthentication/OAuth: True
+    - Cross Origin Resource Sharing Support: True
+    - Path Routing Support: True
+    - Traffic Shaping Support: False
+    - Wildcard Support In Naming Parameters: False
+  Integrations:
+    - Supported Cloud Services: "All Clouds"
+    - Built in Logging: True
+    - Built in Monitoring: True
+    - Third Party Integrations Out Of The Box: { "Epsagon", "SignalFx" }
+  Security:
+    - Cloud Provider IAM Support: False
+    - Virtual Private Network Support: False
+    - Compliance: True
+    - GDPR Compliance: True
+  Documentation:
+    - Wiki (or equivalent): True
+    - Howtos: True
+    - Examples/Use Cases: True
+    - Videos: False
+    - User Community: True
+    - API Documentation: True
+  On-Premises Deployment:
+    - On-Premises Deployment: True
+    - Public Cloud Integration: True
+...
